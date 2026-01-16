@@ -10,6 +10,7 @@
         "EXPO_PUBLIC_API_URL": "https://api.breakerbot.online"
       }
     },
+
     "preview": {
       "android": {
         "buildType": "apk"
@@ -19,15 +20,17 @@
         "EXPO_PUBLIC_API_URL": "https://api.breakerbot.online"
       }
     },
+
     "production": {
       "android": {
-        "buildType": "apk"
+        "buildType": "app-bundle"
       },
       "env": {
         "EXPO_PUBLIC_API_URL": "https://api.breakerbot.online"
       }
     }
   },
+
   "submit": {
     "production": {}
   }
